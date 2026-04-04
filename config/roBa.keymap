@@ -36,7 +36,15 @@
             #input-processor-cells = <2>;
             require-prior-idle-ms = <AML_IDLE_GUARD_MS>;
             excluded-positions = <
-
+                7  // MOUSE MB3
+                15 // base MB2
+                18 // MOUSE MB1
+                20 // MOUSE MB2
+                27 // base MB1
+                30 // MOUSE MB4
+                31 // MOUSE MB5
+                34 // LEFT_SHIFT
+                41 // MOUSE toggle on
             >;
         };
     };
@@ -154,7 +162,7 @@
 &trans  &trans  &trans  &trans  &trans                          &trans     &trans    &mkp MB3  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans     &mkp MB1  &trans    &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans     &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &tog_off 4  &tog_on 4                                &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &tog_off MOUSE_LAYER  &tog_on MOUSE_LAYER                                &trans
             >;
         };
 
