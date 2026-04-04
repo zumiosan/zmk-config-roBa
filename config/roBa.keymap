@@ -92,14 +92,12 @@
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
             toggle-mode = "on";
-            locking;
         };
 
         tog_off: toggle_layer_off {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
             toggle-mode = "off";
-            locking;
         };
 
         lt_to_layer_0: lt_to_layer_0 {
