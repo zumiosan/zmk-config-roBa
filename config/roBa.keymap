@@ -151,15 +151,15 @@
 &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                           &kp N6     &kp N7         &kp N8             &kp N9            &kp N0
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK       &kp UNDERSCORE    &kp PLUS
 &kp TILDE        &kp GRAVE    &trans    &trans      &trans       &trans      &trans  &kp COLON  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE
-&trans           &trans       &trans    &trans      &trans       &trans      &trans  &trans                                                         &kp BACKSLASH
+&kp LANG1        &trans       &trans    &trans      &trans       &trans      &trans  &trans                                                         &kp BACKSLASH
             >;
         };
 
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &tog_on 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &tog_off 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &tog_off 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &tog_on 4
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
