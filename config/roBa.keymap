@@ -40,11 +40,12 @@
                 15 // base MB2
                 18 // MOUSE MB1
                 20 // MOUSE MB2
+                21 // MOUSE toggle off
                 27 // base MB1
                 30 // MOUSE MB4
                 31 // MOUSE MB5
+                33 // MOUSE toggle on
                 34 // LEFT_SHIFT
-                41 // MOUSE toggle on
             >;
         };
     };
