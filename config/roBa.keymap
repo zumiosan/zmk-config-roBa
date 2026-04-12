@@ -98,7 +98,7 @@
         default_layer_mac {
             bindings = <
 &kp Q           &kp W         &kp E             &kp R               &kp T                                      &kp Y       &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &lt 5 D           &kp F               &kp G        &mkp MB2       &kp SEMICOLON  &kp H       &kp J  &lt 5 K    &kp L    &kp MINUS
+&kp A           &kp S         &kp D             &kp F               &kp G        &mkp MB2       &kp SEMICOLON  &kp H       &kp J  &lt 5 K    &kp L    &kp MINUS
 &kp Z           &kp X         &kp C             &kp V               &lt 6 B      &mkp MB1       &kp EQUAL      &kp N       &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt 3 SPACE  &lt 2 TAB      &kp BACKSPACE  &kp RETURN                             &kp RG(RSHFT)
             >;
@@ -139,10 +139,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &tog_off 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &tog_on 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&none  &none  &none  &none  &none                    &none  &none     &mkp MB3  &none     &none
+&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1  &none     &mkp MB2  &tog_off 4
+&none  &none  &none  &none  &none  &none      &none  &none  &none     &none     &none     &tog_on 4
+&none  &none  &none  &none  &none  &none      &none  &none                                &none
             >;
         };
 
