@@ -139,10 +139,10 @@
 
         MOUSE {
             bindings = <
-&none  &none  &none  &none  &none                    &none  &none     &mkp MB3  &none     &none
-&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1  &none     &mkp MB2  &tog_off 4
-&none  &none  &none  &none  &none  &none      &none  &none  &none     &none     &none     &tog_on 4
-&none  &none  &none  &none  &none  &none      &none  &none                                &none
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &tog_off 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &tog_on 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
